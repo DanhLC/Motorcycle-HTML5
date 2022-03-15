@@ -68,7 +68,7 @@ var player = new function(){
         {
             this.rot = -Math.PI;
         }
-        if(this.rot < -Math.PI)
+        else if(this.rot < -Math.PI)
         {
             this.rot = Math.PI;
         }
